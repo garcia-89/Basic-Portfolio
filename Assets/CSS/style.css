@@ -1,26 +1,33 @@
-#main-header{
+#main-header {
 
     background-color: white;
-    border-bottom: 2px #cccccc solid;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    height:75px;
+    height: 100px;
     width: 100%;
+    border-bottom: 2px #cccccc solid;
 }
 
-.nav-buttons{
-    float: Right;
-    margin-right: 200px;   
+.nav-buttons {
+    float: left;
+    margin-left: 500px;
+    word-spacing: 10px;
+    padding-top:60px
 }
 
 h1 {
-    text-align: center;
+    float: left;
     background-color: #4aaaa5;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    Color:white;
-    height:70px;
+    Color: white;
+    height: 47px;
     width: 230px;
-    margin-left: 105px;
+    margin-left: 430px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 50px;
 }
+
+
 
 h2 {
     Color: #4aaaa5;
@@ -33,43 +40,80 @@ h2 {
     font-size: 30px;
 }
 
-.container1{
-    
-    width:960px;
+h3 {
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	padding: 15px;
+	margin-bottom: -5px;
+	font-weight: 250;
+	line-height: 11px;
+	color: #fff;
+	text-align: center;
+	background: #4aaaa5;
+	border-bottom: 0;
+}
+
+.container1 {
+
+    width: 960px;
     height: 400px;
     background-color: white;
     padding: 20px 30px;
-    margin: auto;   
+    margin: auto;
     line-height: 2.0em;
 }
 
 .container2 {
-        margin:30px 300px;
-        width:960px;
-        height: 400px;
-        background-color: white;
-        padding: 20px 30px;
-        line-height: 2.0em;
-}
-
-.container3 {
-    width:960px;
-    height: 500px;
+    margin: auto;
+    width: 800px;
+    height: 900px;
     background-color: white;
     padding: 30px 40px;
-    line-height: 1.5em;
-    margin:auto;
+    line-height: 2.0em;
+}
+
+.images {
+	position: relative;
+	float: left;
+	width: 190px;
+	margin: 40px 55px;
+}
+.container3 {
+    width: 960px;
+    height: 600px;
+    background-color: white;
+    padding: 30px 40px;
+    line-height: 2.0em;
+    margin: auto;
+}
+
+container4 {
+    padding: 10px 10px;
+    border-bottom: 2px #cccccc solid;
+}
+
+.button {
+    background-color: #4aaaa5;
+    color:white;
+    font-size: 16px;
+    text-align:center;
+    margin: 4px 2px;
+    padding:10px 22px;
+    border:none;
 }
 
 textarea {
     width: 950px;
     height: 190px;
 }
-.textline{
+
+.textline {
     width: 950px;
     height: 15px;
 }
-p { 
+
+p {
     display: inline;
 }
 
@@ -87,12 +131,12 @@ body {
 #box-1 {
     color: grey;
     float: left;
-    border: 1px solid grey; 
+    border: 1px solid grey;
     line-height: 1.6em;
     margin: 30px 10px 30px 10px;
 }
 
-#main-footer{
+#main-footer {
     position: absolute;
     text-align: center;
     width: 100%;
@@ -100,7 +144,7 @@ body {
     color: white;
     height: 50px;
     left: 0%;
-    bottom:0px;
+    bottom: -300px;
     line-height: 50px;
     border-top: 6px #4aaaa5 solid;
 }
